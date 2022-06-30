@@ -1,0 +1,11 @@
+<div *ngIf="person">
+
+    <p>Email: {{person.email}}</p>
+    <p>Company: {{person.company}}</p>
+    <p>Region: {{person.region}}</p>
+    <p>Country: {{person.country}}</p>
+
+    <button (click)="editPerson(person)">Edit</button>
+    <button (click)="deletePerson(person)">Delete</button>
+
+</div>
